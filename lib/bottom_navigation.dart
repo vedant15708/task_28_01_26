@@ -39,6 +39,7 @@ class _BottomNavigationDemoState extends State<BottomNavigationDemo> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
+        color: Colors.white,
         shape: const CircularNotchedRectangle(),
         notchMargin: 8.0,
         child: Row(
